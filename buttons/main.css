@@ -1,0 +1,75 @@
+
+/* first button with grade */
+.button {
+	width: 250px;
+	height: 50px;
+	color: #fff;
+	background-color: #99CF00;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+ 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700));
+	background: -moz-linear-gradient(19% 75% 90deg,#6DB700, #99CF00);
+ 	border-left: solid 1px #c3f83a;
+	border-top: solid 1px #c3f83a;
+	border-right: solid 2px #58701b;
+	border-bottom: solid 3px #58701b;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-gradient(linear, 0% 0%, 0% 100%, from(#99CF00), to(#6DB700))
+}
+
+.button:active {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6DB700), to(#99CF00));
+	background: -moz-linear-gradient(19% 75% 90deg,#99CF00, #6DB700);
+	border-bottom:none;
+	border-right:none;
+	border:2px inset #c3f83a ;
+}
+ 
+/* second button solid */
+.button2:active {
+	border-bottom:none;
+	border-right:none;
+	border:2px inset #c3f83a ;
+}
+
+.button2 {
+	width: 250px;
+	height: 50px;
+	color: #fff;
+	background-color: #99CF00;
+	text-align: center;
+	font-size: 30px;
+	line-height: 50px;
+ 	border-left: solid 1px #c3f83a;
+	border-top: solid 1px #c3f83a;
+	border-right: solid 2px #58701b;
+	border-bottom: solid 3px #58701b;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+
+/* these never change, hopefully ... */
+
+h3 {
+	font-size: 20px;
+	line-height: 0px;
+	font-family: helvetica, sans-serif;
+}
+ 
+p {
+	font-size: 12px;
+	line-height: 0px;
+	font-family: helvetica, sans-serif;
+	margin-top:20px;margin-bottom:20px;
+}
+ 
+a {
+	text-decoration: none;
+	color: #000;
+}
